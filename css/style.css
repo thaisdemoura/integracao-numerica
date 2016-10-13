@@ -1,0 +1,56 @@
+body {
+	font: 400 13px/1 'Open Sans', sans-serif;
+}
+
+.env-tables {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 20px;
+}
+
+.env-table {
+	margin-bottom: 30px;
+	flex: 0 0 100%;
+}
+
+.env-tables table {
+	border: 1px solid #ccc;
+	margin: 0 auto 0;
+	width: 500px;
+}
+
+.env-tables th {
+	border: 1px solid white;
+	background-color: black;
+	color: white;
+	font-size: 15px;
+	line-height: 25px;
+}
+
+.env-tables td {
+	border: 1px solid #ccc;
+	font-size: 13px;
+	line-height: 25px;
+	padding: 0 10px;
+	text-align: center;
+}
+
+.env-tables .title {
+	display: block;
+	font-size: 22px;
+	font-weight: 700;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.env-tables .info {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px auto 0;
+	width: 500px;
+}
+
+.env-tables .info strong {
+	font-weight: 700;
+}
